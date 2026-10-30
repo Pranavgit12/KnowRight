@@ -1,0 +1,47 @@
+{
+  "registry_version": "1.0.0",
+  "checked_on": "2026-10-31",
+  "policy": "Entries are discovery candidates only. A registry entry does not approve a source for ingestion. A reviewer must confirm jurisdiction, document version and status, reuse terms, and the exact URL before setting approval_status to approved in an ingestion record.",
+  "sources": [
+    {
+      "source_id": "india-code",
+      "name": "India Code",
+      "operator": "Government of India ministries and departments",
+      "jurisdiction": "India (Central Acts and subordinate legislation as provided by ministries/departments)",
+      "source_url": "https://www.indiacode.nic.in/",
+      "source_type": "official_government_portal",
+      "status": "candidate_requires_document_level_review",
+      "usage_notes": "The portal states that content is provided by Government of India ministries/departments. Check the specific document, amendment status, effective dates, and reuse terms before ingesting. State law coverage must be sourced and reviewed separately."
+    },
+    {
+      "source_id": "india-legislative-department",
+      "name": "Legislative Department, Ministry of Law and Justice",
+      "operator": "Government of India",
+      "jurisdiction": "India (central legislative materials published by the department)",
+      "source_url": "https://www.legislative.gov.in/documents",
+      "source_type": "official_government_portal",
+      "status": "candidate_requires_document_level_review",
+      "usage_notes": "The department publishes legislative documents and Constitution materials. Confirm whether a document is current, amended, in force, and suitable for the user's question. A portal listing alone is not approval to ingest."
+    },
+    {
+      "source_id": "eur-lex",
+      "name": "EUR-Lex",
+      "operator": "Publications Office of the European Union",
+      "jurisdiction": "European Union law; national measures and case law references vary by record",
+      "source_url": "https://eur-lex.europa.eu/content/welcome/about.html?locale=en",
+      "source_type": "official_eu_legal_information_portal",
+      "status": "candidate_requires_document_level_review",
+      "usage_notes": "EUR-Lex describes its coverage as EU treaties, legal acts, case law, and related records. Check the record's language, applicable dates, status, and whether it is EU or national law before ingestion."
+    },
+    {
+      "source_id": "us-ecfr",
+      "name": "Electronic Code of Federal Regulations (eCFR)",
+      "operator": "Office of the Federal Register and Government Publishing Office",
+      "jurisdiction": "United States federal regulations",
+      "source_url": "https://www.ecfr.gov/",
+      "source_type": "official_us_government_legal_portal",
+      "status": "candidate_requires_document_level_review",
+      "usage_notes": "The eCFR is a continuously updated online version of the CFR, but the portal notes that it is not the official legal edition. Do not treat it as U.S. state law. Preserve the record's displayed update date and verify consequential matters against controlling official publications."
+    }
+  ]
+}

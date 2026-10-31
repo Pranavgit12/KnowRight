@@ -10,7 +10,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Any
 
-TOKEN_RE = re.compile(r"[a-z0-9]+", re.IGNORECASE)
+TOKEN_RE = re.compile(r"[^\W_]+", re.IGNORECASE)
 SENTENCE_RE = re.compile(r"(?<=[.!?])\s+|\n+")
 STOP_WORDS = {
     "a", "an", "and", "are", "as", "at", "be", "by", "for", "from",

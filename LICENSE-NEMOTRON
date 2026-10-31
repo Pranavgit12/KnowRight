@@ -1,0 +1,40 @@
+NVIDIA Nemotron 3 Ultra License Agreement
+
+Copyright (c) 2024 NVIDIA Corporation. All rights reserved.
+
+This license governs the use of the Nemotron 3 Ultra model ("Model") provided by NVIDIA Corporation ("NVIDIA").
+
+1. GRANT OF LICENSE
+Subject to the terms of this Agreement, NVIDIA grants you a non-exclusive, non-transferable, non-sublicensable, royalty-free license to:
+(a) Use the Model for internal research, development, and evaluation purposes;
+(b) Incorporate the Model into your applications and services;
+(c) Distribute your applications and services that incorporate the Model.
+
+2. RESTRICTIONS
+You shall not:
+(a) Use the Model for any illegal or unauthorized purpose;
+(b) Reverse engineer, decompile, or attempt to extract the training data from the Model;
+(c) Use the Model to develop competing foundation models;
+(d) Remove or alter any proprietary notices or labels on the Model;
+(e) Use the Model in violation of any applicable laws or regulations.
+
+3. ATTRIBUTION
+You must include the following attribution in any distribution of applications or services that incorporate the Model:
+"Powered by NVIDIA Nemotron 3 Ultra"
+
+4. DISCLAIMER OF WARRANTIES
+THE MODEL IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. NVIDIA DOES NOT WARRANT THAT THE MODEL WILL BE ERROR-FREE OR UNINTERRUPTED.
+
+5. LIMITATION OF LIABILITY
+IN NO EVENT SHALL NVIDIA BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING WITHOUT LIMITATION, LOSS OF PROFITS, DATA, OR GOODWILL, ARISING OUT OF OR IN CONNECTION WITH THE USE OF THE MODEL.
+
+6. TERM AND TERMINATION
+This Agreement is effective until terminated. NVIDIA may terminate this Agreement at any time if you breach any term. Upon termination, you must cease all use of the Model and destroy all copies.
+
+7. GOVERNING LAW
+This Agreement shall be governed by the laws of the State of California, without regard to conflict of law principles.
+
+8. GENERAL
+This Agreement constitutes the entire agreement between you and NVIDIA regarding the Model. If any provision is held invalid, the remaining provisions shall remain in effect.
+
+By using the Nemotron 3 Ultra model, you agree to be bound by the terms of this Agreement.
